@@ -1,33 +1,33 @@
 # --- 定制规则 ---
-AI,Rules/Service/AI.list
-Google,Rules/Service/Google.list
-Microsoft,Rules/Service/Microsoft.list
-Cloudflare,Rules/Service/Cloudflare.list
-Games,Rules/Games/GamesAll.list
+AI,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Service/AI.list
+Google,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Service/Google.list
+Microsoft,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Service/Microsoft.list
+Cloudflare,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Service/Cloudflare.list
+Games,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Games/GamesAll.list
 
 # --- 通用规则 排序 ---
 
 # 1. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
-Advertising,Rules/Advertising/AdReject.list
+Advertising,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Advertising/AdReject.list
 
 # 2. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
-Hijacking,Rules/Advertising/Hijacking.list
+Hijacking,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Advertising/Hijacking.list
 
 # 3. ForeignMedia.list - 国际流媒体
-Foreign Media,Rules/Media/ForeignMedia.list
+Foreign Media,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Media/ForeignMedia.list
 
 # 4. DomesticMedia.list - 国内流媒体（可不加）
-# Domestic Media,Rules/Media/DomesticMedia.list
+# Domestic Media,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Media/DomesticMedia.list
 
 # 5. Global.list - 国际网站/应用
-OutSide,Rules/Region/Global.list
+OutSide,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Region/Global.list
 
 # 6. Apple.list - Apple 服务（可不加）
-Apple,Rules/Service/Apple.list
+Apple,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Service/Apple.list
 
 # 7. China.list - 国内网站/应用 
-Domestic,Rules/LocalAreaNetwork.list
-Domestic,Rules/Region/China.list
+Domestic,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/LocalAreaNetwork.list
+Domestic,https://raw.githubusercontent.com/3dot141/Rules4SubConverter/master/Sub/Rules/Region/China.list
 Domestic,[]GEOIP,CN
 
 # 8. 兜底
