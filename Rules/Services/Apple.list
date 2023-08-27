@@ -1,0 +1,128 @@
+# = Apple
+# > Apple Websites
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-WILDCARD,apple.*
+DOMAIN-WILDCARD,apple.com.*
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-WILDCARD,ipod.*
+DOMAIN-WILDCARD,imac.*
+DOMAIN-WILDCARD,iphone.*
+DOMAIN-WILDCARD,macbook.*
+
+# > Apple CIDR
+ip-cidr,17.0.0.0/8,Apple
+ip-cidr,63.92.224.0/19,Apple
+ip-cidr,65.199.22.0/23,Apple
+ip-cidr,139.178.128.0/18,Apple
+ip-cidr,144.178.0.0/19,Apple
+ip-cidr,144.178.36.0/22,Apple
+ip-cidr,144.178.48.0/20,Apple
+ip-cidr,192.35.50.0/24,Apple
+ip-cidr,198.183.17.0/24,Apple
+ip-cidr,205.180.175.0/24,Apple
+
+# > Apple Stores
+DOMAIN,apps.apple.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,mzstatic.com
+
+# > Apple Developer
+DOMAIN-WILDCARD,appleworldwidedeveloper.*.net
+DOMAIN-SUFFIX,adcdownload.apple.com
+DOMAIN-SUFFIX,developer.apple.com
+
+# > Beats
+
+
+# > iCloud
+DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,icoudo
+DOMAIN-KEYWORD,icoudos
+DOMAIN-SUFFIX,applemx-icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud-isupport.com
+DOMAIN-SUFFIX,icloudads.net
+DOMAIN-SUFFIX,icloudbox.net
+DOMAIN-SUFFIX,icloudbrowser.net
+DOMAIN-SUFFIX,icloude.com
+DOMAIN-SUFFIX,icloudmusic.net
+DOMAIN-SUFFIX,icloudmail.net
+DOMAIN-SUFFIX,icloudnet.net
+DOMAIN-SUFFIX,icloudpay.net
+DOMAIN-SUFFIX,icloudsecure.net
+DOMAIN-SUFFIX,myicloud.net
+DOMAIN-SUFFIX,mail.me.com.akadns.net
+DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,icloud-sandbox.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.net.cn
+
+# > Apple APIs
+# >> Location Service
+DOMAIN-SUFFIX,ls.apple.com
+# >> Push Service
+DOMAIN,init-p01md.apple.com
+DOMAIN,init-p01st.push.apple.com
+DOMAIN,init-s01st.push.apple.com
+DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+
+# >> Other Service
+HOST,amp-api.apps.apple.com,Apple Domestic
+DOMAIN,api.smoot.apple.cn
+DOMAIN-SUFFIX,safebrowsing.apple
+
+# > Apple Music
+DOMAIN,hls.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,play.itunes.apple.com
+DOMAIN-SUFFIX,phobos.apple.com
+DOMAIN-SUFFIX,radio.itunes.apple.com
+DOMAIN-SUFFIX,radio-activity.itunes.apple.com
+DOMAIN-SUFFIX,radio-services.itunes.apple.com
+DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
+
+# > Apple Kit
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+
+# > Apple Resources Server
+DOMAIN,testflight.apple.com
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,secure-appldnld.apple.com
+DOMAIN-SUFFIX,itunesu.assets.itunes.com
+
+# > Apple CDNs
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN,adcdownload.apple.com.akadns.net
+DOMAIN-SUFFIX,apple.com.cdn20.com
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,apple.com.mwcname.com
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cdn-apple.com.akadns.net
+DOMAIN-SUFFIX,isu.apple.com.akadns.net
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,itunes.com.edgekey.net
+DOMAIN-SUFFIX,origin-apple.com.akadns.net
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
+
+#以下内容规则需要通过代理访问
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN-SUFFIX,apple.news

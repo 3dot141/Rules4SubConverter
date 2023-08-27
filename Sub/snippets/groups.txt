@@ -1,0 +1,34 @@
+# 定制内容，放第一个
+AI`select`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
+Apple`select`[]OutSide`[]DIRECT
+Google`select`[]OutSide`[]DIRECT
+Microsoft`select`[]OutSide`[]DIRECT
+Cloudflare`select`[]OutSide`[]DIRECT
+Games`select`[]OutSide`[]DIRECT
+
+# 通用
+OutSide`select`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]Domestic
+AutoTest`url-test`.*`http://www.gstatic.com/generate_204`300,5
+
+# 国内/外
+Domestic`select`[]DIRECT
+Foreign`select`[]OutSide`[]DIRECT
+
+# 流媒体 
+Domestic Media`select`[]DIRECT
+Foreign Media`select`[]OutSide`[]DIRECT
+
+# 全球拦截
+Intercept`select`[]REJECT`[]DIRECT
+Hijacking`select`[]Interceptor`[]DIRECT
+Advertising`select`[]Interceptor`[]DIRECT
+
+# 地区分类
+香港`url-test`(香港)`http://www.gstatic.com/generate_204`300,5
+台湾`url-test`(台湾)`http://www.gstatic.com/generate_204`300,5
+日本`url-test`(日本)`http://www.gstatic.com/generate_204`300,5
+美国`url-test`(美国)`http://www.gstatic.com/generate_204`300,5
+其他`url-test`(^(?!.*(香港|台湾|美国|日本)).*)`http://www.gstatic.com/generate_204`300,5
+
+# 兜底
+Unknown`select`[]OutSide`[]DIRECT
