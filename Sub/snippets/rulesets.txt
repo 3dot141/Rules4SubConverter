@@ -1,6 +1,7 @@
 # --- 定制规则 ---
 AI,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/AI.list
 Google,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Google.list
+Microsoft,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Microsoft.list
 Cloudflare,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Cloudflare.list
 Games,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Games/GamesAll.list
 
