@@ -1,33 +1,33 @@
 # --- 定制规则 ---
-AI,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Service/AI.list
-Google,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Service/Google.list
-Microsoft,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Service/Microsoft.list
-Cloudflare,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Service/Cloudflare.list
-Games,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Games/GamesAll.list
+AI,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/AI.list
+Google,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Google.list
+Microsoft,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Microsoft.list
+Cloudflare,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Cloudflare.list
+Games,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Games/GamesAll.list
 
 # --- 通用规则 排序 ---
 
 # 1. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
-Advertising,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Advertising/AdReject.list
+Advertising,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Advertising/AdReject.list
 
 # 2. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
-Hijacking,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Advertising/Hijacking.list
+Hijacking,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Advertising/Hijacking.list
 
 # 3. ForeignMedia.list - 国际流媒体
-Foreign Media,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Media/ForeignMedia.list
+Foreign Media,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Media/ForeignMedia.list
 
 # 4. DomesticMedia.list - 国内流媒体（可不加）
-# Domestic Media,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Media/DomesticMedia.list
+# Domestic Media,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Media/DomesticMedia.list
 
 # 5. Global.list - 国际网站/应用
-OutSide,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Region/Global.list
+OutSide,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Region/Global.list
 
 # 6. Apple.list - Apple 服务（可不加）
-Apple,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Service/Apple.list
+Apple,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Services/Apple.list
 
 # 7. China.list - 国内网站/应用 
-Domestic,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/LocalAreaNetwork.list
-Domestic,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Sub/Rules/Region/China.list
+Domestic,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Region/LocalAreaNetwork.list
+Domestic,https://cdn.jsdelivr.net/gh/3dot141/Rules4SubConverter@master/Rules/Region/China.list
 Domestic,[]GEOIP,CN
 
 # 8. 兜底
