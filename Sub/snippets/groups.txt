@@ -19,7 +19,7 @@ Domestic Media`select`[]DIRECT
 Foreign Media`select`[]OutSide`[]DIRECT
 
 # 全球拦截
-Intercept`select`[]REJECT`[]DIRECT
+Interceptor`select`[]REJECT`[]DIRECT
 Hijacking`select`[]Interceptor`[]DIRECT
 Advertising`select`[]Interceptor`[]DIRECT
 
