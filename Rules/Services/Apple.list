@@ -4,14 +4,13 @@ DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-WILDCARD,apple.*
-DOMAIN-WILDCARD,apple.com.*
+DOMAIN-KEYWORD,apple
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
-DOMAIN-WILDCARD,ipod.*
-DOMAIN-WILDCARD,imac.*
-DOMAIN-WILDCARD,iphone.*
-DOMAIN-WILDCARD,macbook.*
+DOMAIN-KEYWORD,ipod
+DOMAIN-KEYWORD,imac
+DOMAIN-KEYWORD,iphone
+DOMAIN-KEYWORD,macbook
 
 # > Apple CIDR
 IP-CIDR,17.0.0.0/8
@@ -33,7 +32,7 @@ DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,mzstatic.com
 
 # > Apple Developer
-DOMAIN-WILDCARD,appleworldwidedeveloper.*.net
+DOMAIN-KEYWORD,appleworldwidedeveloper
 DOMAIN-SUFFIX,adcdownload.apple.com
 DOMAIN-SUFFIX,developer.apple.com
 

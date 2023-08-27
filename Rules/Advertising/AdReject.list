@@ -2401,7 +2401,7 @@ DOMAIN-SUFFIX,ct.210189.com
 DOMAIN-SUFFIX,ct.niu.xunlei.com
 DOMAIN-SUFFIX,cti.w55c.net
 DOMAIN-SUFFIX,ctsywy.com
-DOMAIN-WILDCARD,*.ctobsnssdk.com
+DOMAIN-KEYWORD,ctobsnssdk
 DOMAIN-SUFFIX,cupid.jebe.renren.com
 DOMAIN-SUFFIX,current.sina.com.cn
 DOMAIN-SUFFIX,customad.cnn.com

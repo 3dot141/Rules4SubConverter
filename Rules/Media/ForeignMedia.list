@@ -986,7 +986,7 @@ DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
 
 # >> DNS test
-DOMAIN-WILDCARD,netflixdnstest*.com
+DOMAIN-KEYWORD,netflixdnstest
 IP-CIDR,8.41.4.0/24
 IP-CIDR,23.78.0.0/16
 IP-CIDR,23.246.0.0/18
@@ -1746,12 +1746,8 @@ USER-AGENT,YouTube*
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,youtubei.googleapis.com
-DOMAIN-WILDCARD,youtube.*
-DOMAIN-WILDCARD,youtube.com.*
-DOMAIN-WILDCARD,youtube.co.*
-DOMAIN-WILDCARD,youtubego.*
-DOMAIN-WILDCARD,youtubego.co.*
-DOMAIN-WILDCARD,youtubego.com.*
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,youtubego
 DOMAIN-SUFFIX,youtube
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
