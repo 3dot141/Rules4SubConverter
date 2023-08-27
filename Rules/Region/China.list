@@ -1,28 +1,28 @@
 # Region / 区域性 list -- China部分
 # 请注意，此规则仍然处于未完善并持续更新的状态
 # 常用UA
-user-agent, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,DIRECT
-user-agent,%E5%8D%B3%E5%88%BB*,DIRECT
-user-agent,*Vainglory* ,DIRECT
-user-agent,AdBlock*,DIRECT
-user-agent,arrowio*,DIRECT
-user-agent,balls*,DIRECT
-user-agent,Best%20Trace*,DIRECT
-user-agent,cmblife*,DIRECT
-user-agent,eusoft_ting_en_iphone,DIRECT
-user-agent,hide*,DIRECT
-user-agent,MegaWerewolf*,DIRECT
-user-agent,MicroMessenger*,DIRECT
-user-agent,Moke*,DIRECT
-user-agent,osee2unifiedRelease*,DIRECT
-user-agent,QQ*,DIRECT
-user-agent,TeamViewer*,DIRECT
-user-agent,TIM*,DIRECT
-user-agent,ting_en,DIRECT
-user-agent,WebTorrent*,DIRECT
-user-agent,WeChat*,DIRECT
+USER-AGENT, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
+USER-AGENT,%E5%8D%B3%E5%88%BB*
+USER-AGENT,*Vainglory* 
+USER-AGENT,AdBlock*
+USER-AGENT,arrowio*
+USER-AGENT,balls*
+USER-AGENT,Best%20Trace*
+USER-AGENT,cmblife*
+USER-AGENT,eusoft_ting_en_iphone
+USER-AGENT,hide*
+USER-AGENT,MegaWerewolf*
+USER-AGENT,MicroMessenger*
+USER-AGENT,Moke*
+USER-AGENT,osee2unifiedRelease*
+USER-AGENT,QQ*
+USER-AGENT,TeamViewer*
+USER-AGENT,TIM*
+USER-AGENT,ting_en
+USER-AGENT,WebTorrent*
+USER-AGENT,WeChat*
 # GeoIP CN段 直联
-GEOIP,CN,DIRECT
+GEOIP,CN
 
 
 # IP类工具 直联
@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 # 测速类
 //Speed Test
-# host-suffix,speedtest.net,DIRECT
+DOMAINST-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # 京东
@@ -65,7 +65,7 @@ DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com
 # 阿里
-user-agent,%E4%BC%98%E9%85%B7*,DIRECT
+USER-AGENT,%E4%BC%98%E9%85%B7*
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alikunlun.com
@@ -83,8 +83,8 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 # 腾讯
-user-agent,MicroMessenger%20Client,DIRECT
-user-agent,WeChat*,DIRECT
+USER-AGENT,MicroMessenger%20Client
+USER-AGENT,WeChat*
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
@@ -99,8 +99,8 @@ DOMAIN-SUFFIX,meitudata.com
 DOMAIN-SUFFIX,meitustat.com
 DOMAIN-SUFFIX,meipai.com
 # 网易
-user-agent,NeteaseMusic*,DIRECT
-user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+USER-AGENT,NeteaseMusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net

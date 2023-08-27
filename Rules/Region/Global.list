@@ -270,7 +270,7 @@ DOMAIN-SUFFIX,ying.com
 DOMAIN-SUFFIX,yoyo.org
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,smartmailcloud.com
-user-agent,TwDramas,OutSide
+USER-AGENT,TwDramas
 DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,4everOutSide.com

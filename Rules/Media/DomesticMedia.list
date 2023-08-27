@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,bilivideo.com
 # YYeTs
-user-agent,YYeTs*,DIRECT
+USER-AGENT,YYeTs*
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zimuzu.tv

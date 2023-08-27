@@ -1,6 +1,6 @@
 # > Microsoft
 # > Main
-user-agent,Microsoft*,Microsoft
+USER-AGENT,Microsoft*
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,windows
 DOMAIN-SUFFIX,microsoft.com
@@ -223,10 +223,9 @@ DOMAIN-SUFFIX,officedev.cn
 DOMAIN-SUFFIX,microsoft365.com
 
 # > OneDrive & Sharepoint
-user-agent,OneDrive*,Microsoft
-user-agent,OneDriveiOSApp*,Microsoft
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 DOMAIN-KEYWORD,Onedrive
-DOMAIN-WILDCARD,Onedrive.*
 DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,sharepoint

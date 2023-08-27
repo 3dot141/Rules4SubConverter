@@ -1,5 +1,5 @@
 # ClubHouse
-user-agent,Clubhouse*,ClubHouse
+USER-AGENT,Clubhouse*
 DOMAIN-SUFFIX,clubhouse.com
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
