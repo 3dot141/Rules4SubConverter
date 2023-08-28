@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 # 测速类
 //Speed Test
-DOMAINST-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # 京东
