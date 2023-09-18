@@ -6,4 +6,4 @@
 使用规则大都是 copy 自 [Rules For Quantumult-X](https://github.com/sve1r/Rules-For-Quantumult-X/tree/develop)。
 目录格式、作用基本一致。
 
-大家按需取用。
+大家按需取用。有问题请提 issues
