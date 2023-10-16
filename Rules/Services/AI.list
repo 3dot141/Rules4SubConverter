@@ -23,3 +23,6 @@ DOMAIN-SUFFIX,poe.com
 # > Claude
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
+
+# > Arc
+DOMAIN,open-ai-chat-omega.vercel.app
