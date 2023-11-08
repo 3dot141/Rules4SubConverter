@@ -311,7 +311,7 @@ var type0=""
 var flag = 1
 
 function Parser() {
-  $notify("gogogo")
+  $done({content : "111"});
   type0 = Type_Check(content0); //  类型判断
   $notify(type0)
   if (type0 != "web" && type0 != "wrong-field" && type0 != "JS-0"){
