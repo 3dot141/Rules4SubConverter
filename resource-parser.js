@@ -344,6 +344,7 @@ function Parser() {
   $done({ content: "111" });
 }
 
+$notify("1", "2", "3")
 parser();
 
 /**
