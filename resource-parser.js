@@ -339,7 +339,8 @@ function Parser() {
   } else {
     total=""
   }
-    $done({ content: total });
+  $notify("gogogo" + total);
+  $done({ content: total });
 }
 
 parser();
