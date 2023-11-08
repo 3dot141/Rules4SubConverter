@@ -312,7 +312,7 @@ var flag = 1
 
 function Parser() {
   type0 = Type_Check(content0); //  类型判断
-  //$notify(type0)
+  $notify(type0)
   if (type0 != "web" && type0 != "wrong-field" && type0 != "JS-0"){
     try {
       //$notify(type0,"hh")
