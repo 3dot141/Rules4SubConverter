@@ -311,7 +311,6 @@ var type0=""
 var flag = 1
 
 function Parser() {
-  $done({content : "111"});
   type0 = Type_Check(content0); //  类型判断
   $notify(type0)
   if (type0 != "web" && type0 != "wrong-field" && type0 != "JS-0"){
@@ -344,7 +343,6 @@ function Parser() {
   $done({ content: "111" });
 }
 
-$notify("1", "2", "3")
 parser();
 
 /**
@@ -580,6 +578,7 @@ function Type_Check(subs) {
     const RewriteCheck = (item) => subs.indexOf(item) != -1 ; // quanx 重写判定
     const ProfileCheck = (item) => subs.indexOf(item) != -1; //是否为quanx配置文件
     var subsn = subs.split("\n")
+    $notify("-- typecheck --","go",subs);
     if ( (subs.indexOf(html) != -1 || subs.indexOf("doctype html") != -1) && link0.indexOf("github.com" == -1)) {
       $notify("‼️ 该链接返回为无效网页内容"+ " ➟ " + "⟦" + subtag + "⟧", "⁉️ 点通知跳转以确认链接是否失效\n"+link0, "返回内容如下⬇️：\n"+subs, nan_link);
       type = "web";
