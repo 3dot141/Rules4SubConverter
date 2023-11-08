@@ -311,7 +311,6 @@ var type0=""
 var flag = 1
 
 function Parser() {
-  $done({error: "parser"});
   type0 = Type_Check(content0); //  类型判断
   $notify(type0)
   if (type0 != "web" && type0 != "wrong-field" && type0 != "JS-0"){
@@ -343,22 +342,7 @@ function Parser() {
     $done({ content: total });
 }
 
-if (typeof($resource)!=="undefined" && PProfile == 0) {
-  $done({ content: total, info: Finfo })
-} else if (PProfile != 0) {
-  try {
-    Profile_Handle()
-  } catch (err) {
-    if(Perror == 0) {
-      $notify("❌ 解析出现错误", "⚠️ 请点击通知，发送订阅链接进行反馈", err, bug_link);
-    }
-    }
-  openlink = {"open-url": ADDres}
-  $notify("⚠️请忽略报错提示, 点击此通知跳转", "添加配置中的有效远程资源👇 ["+ PProfile+"]", ADDres,openlink)
-  total = ProfileInfo[typeQ]
-  $done({content:total})
-}
-
+parser();
 
 /**
 # 以下为具体的 function
