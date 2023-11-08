@@ -344,7 +344,6 @@ function Parser() {
 }
 
 if (typeof($resource)!=="undefined" && PProfile == 0) {
-  Parser()
   $done({ content: total, info: Finfo })
 } else if (PProfile != 0) {
   try {
