@@ -1,6 +1,7 @@
 # 国外网站
 # Global list 仍然处于持续更新中
 DOMAIN-SUFFIX,alpinelinux.org
+DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,fly.io
 DOMAIN-SUFFIX,9to5mac.com
