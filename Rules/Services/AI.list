@@ -1,4 +1,5 @@
 # > OpenAI
+
 # >> OpenAI Challenge & SSO
 DOMAIN-SUFFIX,auth0.com
 DOMAIN,challenges.cloudflare.com
@@ -26,3 +27,6 @@ DOMAIN-KEYWORD,anthropic
 
 # > Arc
 DOMAIN,open-ai-chat-omega.vercel.app
+
+# > Jetbrains
+DOMAIN-SUFFIX,aws.intellij.net
