@@ -14,7 +14,7 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: 
-  - 'DST-PORT,22,candy'
+  - 'DST-PORT,22,Candy'
 {% else %}
 Proxy: ~
 Proxy Group: ~
