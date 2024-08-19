@@ -36,3 +36,5 @@ Unknown`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他
 
 # SS
 Candy`url-test`(Candy)`http://www.gstatic.com/generate_204`300,5
+Cheap`url-test`(Cheap)`http://www.gstatic.com/generate_204`300,5
+
