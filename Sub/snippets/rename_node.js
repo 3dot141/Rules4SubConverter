@@ -1,5 +1,5 @@
 function rename(node) {
-   const host = node.Hostname;
+   const host = node.Server;
    if (host?.includes("jiedian")) {
       return node.Remark + "_Cheap";
    }
