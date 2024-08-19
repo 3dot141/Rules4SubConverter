@@ -1,9 +1,9 @@
 function rename(node) {
    const host = node.Host;
-   if (host.includes("jiedian")) {
+   if (host?.includes("jiedian")) {
       return node.Remark + "_Cheap";
    }
-   if (host.includes("incomparablebeauty")) {
+   if (host?.includes("incomparablebeauty")) {
       return node.Remark + "_Candy";
    }
   return node.Remark;
