@@ -14,7 +14,7 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: 
-  - PROCESS-NAME,tailscale,DIRECT
+  - PROCESS-NAME,tailscaled,DIRECT
 {% else %}
 Proxy: ~
 Proxy Group: ~
