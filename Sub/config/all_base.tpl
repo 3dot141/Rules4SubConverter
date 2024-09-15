@@ -14,6 +14,7 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: 
+  - PROCESS-NAME,steam.exe,GAMES
   - PROCESS-NAME,tailscaled.exe,DIRECT
   - PROCESS-NAME,tailscale.exe,DIRECT
 {% else %}
