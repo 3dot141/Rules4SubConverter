@@ -1,5 +1,5 @@
 # 定制内容，放第一个
-AI`select`[]香港`[]台湾`[]日本`[]美国`[]其他`(xx-ai.co)[]DIRECT
+AI`select`[]香港`[]台湾`[]日本`[]美国`[]其他``(xx-ai.co)`[]DIRECT
 Apple`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
 Google`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
 Microsoft`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
