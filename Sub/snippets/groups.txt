@@ -1,5 +1,5 @@
 # 定制内容，放第一个
-AI`select`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
+AI`select`[]香港`[]台湾`[]日本`[]美国`[]其他`(xx-ai.co)[]DIRECT
 Apple`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
 Google`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
 Microsoft`select`[]OutSide`[]AutoTest`[]香港`[]台湾`[]日本`[]美国`[]其他`[]DIRECT
@@ -25,10 +25,10 @@ Hijacking`select`[]Interceptor`[]DIRECT
 Advertising`select`[]Interceptor`[]DIRECT
 
 # 地区分类
-香港`url-test`(香港|HK|hk)`http://www.gstatic.com/generate_204`300,5
-台湾`url-test`(台湾|TW|tw)`http://www.gstatic.com/generate_204`300,5
-日本`url-test`(日本|JP|jp)`http://www.gstatic.com/generate_204`300,5
-美国`url-test`(美国|US|us)`http://www.gstatic.com/generate_204`300,5
+香港`url-test`(香港|HK|hk|Hong Kong)`http://www.gstatic.com/generate_204`300,5
+台湾`url-test`(台湾|TW|tw|Taiwan)`http://www.gstatic.com/generate_204`300,5
+日本`url-test`(日本|JP|jp|Japan)`http://www.gstatic.com/generate_204`300,5
+美国`url-test`(美国|US|us|United States)`http://www.gstatic.com/generate_204`300,5
 其他`url-test`(^(?!.*(香港|台湾|美国|日本)).*)`http://www.gstatic.com/generate_204`300,5
 
 # 兜底
