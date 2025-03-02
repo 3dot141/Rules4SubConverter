@@ -30,3 +30,6 @@ DOMAIN,open-ai-chat-omega.vercel.app
 
 # > Jetbrains
 DOMAIN-SUFFIX,aws.intellij.net
+
+# > Microsoft
+DOMAIN-SFFIX,copilot.microsoft.com
