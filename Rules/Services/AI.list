@@ -32,4 +32,4 @@ DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN-SUFFIX,aws.intellij.net
 
 # > Microsoft
-DOMAIN-SFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.microsoft.com
